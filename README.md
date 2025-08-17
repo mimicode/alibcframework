@@ -1,10 +1,10 @@
-# AlibcTradeSDK
+# alibcframework
 
-Alibaba Trade SDK for iOS - 阿里巴巴电商交易SDK
+alibcframework for iOS - 阿里巴巴电商交易SDK
 
 ## 简介
 
-AlibcTradeSDK 是阿里巴巴提供的iOS电商交易SDK，包含了完整的电商功能模块，支持商品展示、交易流程、用户认证等功能。
+alibcframework 是阿里巴巴提供的iOS电商交易SDK，包含了完整的电商功能模块，支持商品展示、交易流程、用户认证等功能。代码版本归阿里巴巴，本项目仅为了方便集成引用
 
 ## 安装
 
@@ -13,7 +13,7 @@ AlibcTradeSDK 是阿里巴巴提供的iOS电商交易SDK，包含了完整的电
 在你的 `Podfile` 中添加：
 
 ```ruby
-pod 'AlibcTradeSDK'
+pod 'alibcframework'
 ```
 
 然后运行：
@@ -31,7 +31,7 @@ pod install
 ## 包含的框架
 
 ### 核心框架
-- **AlibcTradeSDK.framework** - 核心交易SDK
+- **alibcframework.framework** - 核心交易SDK
 - **AlibcTradeBiz.framework** - 交易业务逻辑
 - **AlibcLinkPartnerSDK.framework** - 合作伙伴链接SDK
 
@@ -61,7 +61,7 @@ pod install
 ### Objective-C
 
 ```objc
-#import <AlibcTradeSDK/AlibcTradeSDK.h>
+#import <alibcframework/alibcframework.h>
 
 // 初始化SDK
 // 具体使用方法请参考阿里巴巴官方文档
@@ -70,7 +70,7 @@ pod install
 ### Swift
 
 ```swift
-import AlibcTradeSDK
+import alibcframework
 
 // 初始化SDK
 // 具体使用方法请参考阿里巴巴官方文档

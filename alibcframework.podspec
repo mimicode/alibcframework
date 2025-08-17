@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'AlibcTradeSDK'
+  s.name             = 'alibcframework'
   s.version          = '1.0.0'
   s.summary          = 'Alibaba Trade SDK for iOS'
   s.description      = <<-DESC
