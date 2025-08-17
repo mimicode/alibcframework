@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'alibcframework'
-  s.version          = '1.0.0'
+  s.version          = '4.1.0.4'
   s.summary          = 'Alibaba Trade SDK for iOS'
   s.description      = <<-DESC
                        Alibaba Trade SDK provides comprehensive e-commerce functionality for iOS applications.
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/mimicode/alibcframework'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'mimicode' => 'your-email@example.com' }
-  s.source           = { :git => 'git@github.com:mimicode/alibcframework.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/mimicode/alibcframework.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
   s.requires_arc = true
